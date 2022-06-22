@@ -61,13 +61,13 @@ nav {
  .nav-links {
     position: absolute;
     right: 0px;
-    height: 100%;
+    height: 92vh;
     top: 8vh;
     background-color: #022e51;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 33%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
  }
@@ -118,7 +118,7 @@ nav {
 canvas{
     background: #e8eceb;
     width: 100%;
-    height: 92vh;
+    height: 91vh;
     background-image: url("images/background.jpeg");
     background-size: contain;
 }
@@ -162,26 +162,30 @@ margin: 0;
 
 
 
-.custom-shape-divider-bottom-1655930631 {
+.custom-shape-divider-bottom-1655937881 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
-    z-index:-1;
 }
 
-.custom-shape-divider-bottom-1655930631 svg {
+.custom-shape-divider-bottom-1655937881 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 103px;
-    z-index:-1;
+    height: 52px;
 }
 
-.custom-shape-divider-bottom-1655930631 .shape-fill {
-    fill: #3770E2;
-    z-index:-1;
+.custom-shape-divider-bottom-1655937881 .shape-fill {
+    fill: #022E51;
+}
+
+.home {
+    position: relative;
+    z-index: 1;
+    background: #022E51;
+    padding: 100px 0;
+    color: #fff;
 }

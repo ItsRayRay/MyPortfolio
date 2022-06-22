@@ -160,3 +160,7 @@ window.addEventListener("touchend", onTouchEnd);
 initScene();
 requestAnimationFrame(render);
 
+//===============CANVAS TEXTGENERATION ==============//
+
+
+
