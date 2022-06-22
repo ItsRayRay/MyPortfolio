@@ -119,6 +119,8 @@ canvas{
     background: #e8eceb;
     width: 100%;
     height: 92vh;
+    background-image: url("images/background.jpeg");
+    background-size: contain;
 }
 input{
     width: 250px;
