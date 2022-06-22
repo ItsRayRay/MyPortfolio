@@ -12,7 +12,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #d1a4a4;
+    background-color: #022e51;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -61,9 +61,9 @@ nav {
  .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 100%;
     top: 8vh;
-    background-color: #d1a4a4;
+    background-color: #022e51;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,4 +111,75 @@ nav {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+//==============Header particles====================//
+
+canvas{
+    background: #e8eceb;
+    width: 100%;
+    height: 92vh;
+}
+input{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 35px;
+    left: calc(50% - 125px);
+    background: none;
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+    text-align: center;
+    border: 1px solid white;
+    background: rgba(255,255,255,0.2);
+}
+p{
+position: fixed;
+left: 0;
+bottom:5px;
+color: #fff;
+z-index:10;
+font-size:16px;
+font-family: Helvetica, Verdana, sans-serif;
+opacity:0.5;
+width: 100%;
+text-align: center;
+margin: 0;
+}
+
+.container {
+    max-width: 100%;
+}
+
+
+
+//==============Shape divider====================//
+
+
+
+
+.custom-shape-divider-bottom-1655930631 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index:-1;
+}
+
+.custom-shape-divider-bottom-1655930631 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+    z-index:-1;
+}
+
+.custom-shape-divider-bottom-1655930631 .shape-fill {
+    fill: #3770E2;
+    z-index:-1;
 }
